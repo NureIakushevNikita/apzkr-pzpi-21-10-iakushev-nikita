@@ -1,7 +1,79 @@
+Міністерство освіти і науки України
+Харківський національний університет радіоелектроніки
+
+
+Факультет комп’ютерних наук
+
+
+Кафедра програмної інженерії
+
+
+КУРСОВА РОБОТА
+ПОЯСНЮВАЛЬНА ЗАПИСКА
+з навчальної дисципліни «Архітектура програмного забезпечення»
+Тема роботи: Програмна система для організації роботи торгівельного центру
+
+
+		Студент гр. ПЗПІ-21-10	_________________ Якушев Н. О.
+							(підпис)
+		Керівник роботи			_________________ доц. Лещинська І.О.
+							(підпис)
+							      Роботу захищено «__» ______ 2024.р
+							      з оцінкою _______________________
+		Комісія:				_______________ доц. Лещинський В.О.
+								(підпис)
+							_______________ доц. Лещинська І.О.
+								(підпис)
+							_______________ ст. викл. Сокорчук І.П.
+								(підпис)
+
+Харків
+2024 р.
+Харківський національний університет радіоелектроніки
+
+Факультет  комп’ютерних наук               Кафедра програмної інженерії                  _
+Спеціальність 121 – Інженерія програмного забезпечення                                         _
+Курс          3           Семестр                                          6                                                  _
+Навчальна дисципліна Архітектура програмного забезпечення                                _
+
+ЗАВДАННЯ
+НА КУРСОВУ РОБОТУ СТУДЕНТОВІ
+
+.                                                 Якушева Нікіти Олеговича                                             .
+1. Тема проєкту: Програмна система для організації роботи торгівельного центру.
+2. Термін узгодження завдання курсової роботи « 28 »     березня    . 2024 р.
+3. Термін здачі студентом закінченої роботи « 8 »    червня   . 2024 р.
+4. Вихідні дані до проєкту: завдання щодо розробки унікальної програмної системи з подальшою можливістю монетизації, яка має бути масштабованою, орієнтованою на масового користувача, підтримувати інтернаціоналізацію та локалізацію, із забезпеченням захисту персональних даних та відповідати сучасним стандартам щодо захисту даних. Програмна система повинна включати такі компоненти: серверна частина, клієнтська частина, мобільний програмний застосунок.                                                                                                    .
+5. Зміст пояснювальної записки (перелік питань, що належить розробити) вступ, загальні вимоги щодо програмної системи, розробка серверної частини програмної системи, розробка клієнтської частини програмної системи, розробка мобільної частини програмної системи, висновки, перелік джерел посилань, додатки.
+6. Перелік графічного матеріалу (з точним зазначенням обов’язкових креслень) UML діаграма розгортання, Use-case діаграма, ER-модель даних, UML діаграма станів, UML діаграма пакетів, UML діаграма компонентів.
+
+КАЛЕНДАРНИЙ ПЛАН
+
+№	Назва етапів курсової роботи	Термін виконання
+етапів роботи	Примітка
+1	Функціональна специфікація
+програмного проєкту	20.03.2024	Виконано
+2	Проектування програмного
+проєкту	28.03.2024	Виконано
+3	Кодування програмного проєкту	23.05.2024	Виконано
+4	Оформлення пояснювальної записки	08.06.2024	Виконано
+5	Захист курсової роботи	08.06.2024	Виконано
+
+Дата видачі завдання «	  20   »	березня	 2024 р.
+
+		Керівник 				 	          	      доц. Лещинська І.О.
+								(підпис)
+
+Завдання прийняв до виконання
+ст. гр. ПЗПІ-21-10					      Якушев Н.О.
+					     (підпис)
+
+
+
 РЕФЕРАТ
 
 
-	Пояснювальна записка: 59 сторінок, 4 додатки, 11 рисунків, 2 таблиці, 5 переліків посилання.
+	Пояснювальна записка: 59 сторінок, 4 додатки, 11 рисунків, 2 таблиці, 6 переліків посилання.
 	АДМІНІСТРАТОР ТОРГІВЕЛЬНОГО ЦЕНТРУ, ВІДВІДУВАННЯ МАГАЗИНУ, ЗАМОВЛЕННЯ, МАГАЗИН, МЕРЕЖА ТОРГІВЕЛЬНИХ ЦЕНТРІВ, РОБІТНИК МАГАЗИНУ, РОБОЧІ ЗМІНИ, ТОРГІВЕЛЬНИЙ ЦЕНТР.
 	 Об’єктом розробки є проблема щодо організації роботи сучасних торгівельних центрів. Організація роботи торгівельних центрів включає в себе продаж та купівля товарів, управляння покупками та замовленнями, організація робочих змін для робітників, аналіз кількості відвідувань магазинів торгівельних центрів. Усі ці перелічені процеси мають бути автоматизовані, для полегшення роботи торгівельних центрів.
 	Метою роботи є створення програмної системи для організації роботи торгівельного центру, яка дозволяє створювати замовлення, управляти ними, автоматично розробляти робочий графік для робітників, створювати персонал для магазину, управляти даними щодо відвідування магазинів покупцями, отримувати результати аналізу даних щодо відвідування.
@@ -301,6 +373,7 @@
 3.	Azure SQL documentation – URL: https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql (дата звернення: 03.04.2024).
 4.	In4Suite ERP – URL: https://www.in4velocity.com/in4suite-erp/ (дата звернення: 24.03.2024).
 5.	Software Engineering, Software Development and Systems Integration Partner – AllianceTek – URL: https://www.alliancetek.com/ (дата звернення: 24.03.2024).
+6.	Відеоматеріали реалізованого проєкту в YouTube – URL: https://www.youtube.com/watch?v=QvoE-Rt7Mks.
 
 
 ДОДАТОК А
@@ -671,3 +744,750 @@ URL: /shift
 Метод: POST
 URL: /generateShifts/:workerId
 Опис: Згенерувати кілька змін для робітника
+
+
+ДОДАТОК В
+Програмний код серверної частини
+
+	Наведемо програмний код обробки замовлення користувача:
+
+1  exports.createOrder = async (req, res) => {
+2      const { user_id, address, order_type } = req.body;
+3      try {
+4          const newOrder = await Order.create({ user_id, address,
+5              order_type });
+6          res.status(201).json(newOrder);
+7      } catch (error) {
+8          console.error('Error creating order:', error);
+9          res.status(500).json({ message: 'Failed to create order',
+10              error: error.message });
+11      }
+12  };
+13
+14  exports.createOrderDetails = async (req, res) => {
+15      const { order_id, product_id, quantity } = req.body;
+16
+17      try {
+18          const product = await Product.findByPk(product_id);
+19          if (!product) {
+20              return res.status(404).json({ message: 'Product not found' });
+21          }
+22
+23          if (product.quantity < quantity) {
+24              return res.status(400).json({ message: 'Insufficient quantity
+25                  in stock' });
+26          }
+27
+28          const orderDetails = await OrderDetails.create({
+29              order_id,
+30              product_id,
+31              quantity
+32          });
+33
+34          product.quantity -= quantity;
+35          await product.save();
+36
+37          res.status(201).json(orderDetails);
+38      } catch (error) {
+39          console.error('Error creating order details:', error);
+40          res.status(500).json({ message: 'Failed to create order details',
+41              error: error.message });
+42      }
+43  };
+
+
+
+
+	Наведемо програмний код методів обробки знижок користувача:
+
+1  exports.generateDiscount = async (req, res) => {
+2      const { userId } = req.params;
+3
+4      try {
+5          const existingDiscount = await Discount.findOne({
+6              where: {
+7                  user_id: userId,
+8                  is_used: 0,
+9              }
+10         });
+11
+12         if (existingDiscount) {
+13             return res.status(200).json({ message: `User with id ${userId}
+14                 already has an unused discount` });
+15         }
+16
+17         const orders = await Order.findAll({
+18             where: {
+19                 user_id: userId,
+20             }
+21         });
+22
+23         let totalAmount = 0;
+24
+25         for (const order of orders) {
+26             const orderDetails = await OrderDetails.findAll({
+27                 where: {
+28                     order_id: order.id,
+29                 }
+30             });
+31
+32             for (const detail of orderDetails) {
+33                 const product = await Product.findByPk(detail.product_id);
+34                 if (product) {
+35                     totalAmount += product.price_usd * detail.quantity;
+36                 }
+37             }
+38         }
+39
+40         if (totalAmount > 100) {
+41             await Discount.create({
+42                 user_id: userId,
+43                 percent: 10,
+44             });
+45             res.status(201).json({ message: `Discount generated for user
+46                 with id ${userId}` });
+47         } else {
+48             res.status(200).json({ message: `No discount generated for user
+49                 with id ${userId}` });
+50         }
+51     } catch (error) {
+52         console.error('Error generating discount:', error);
+53         res.status(500).json({ message: 'Failed to generate discount',
+54             error: error.message });
+55     }
+56 };
+57
+58 exports.applyDiscountToOrderDetails = async (req, res) => {
+59     const { discount_id, id } = req.params;
+60
+61     try {
+62         const discount = await Discount.findByPk(discount_id);
+63         if (!discount) {
+64             return res.status(404).json({ message: 'Discount not found' });
+65         }
+66
+67         if (discount.is_used) {
+68             return res.status(400).json({ message: 'Discount has already
+69                 been used' });
+70         }
+71
+72         const orderDetail = await OrderDetails.findByPk(id);
+73         if (!orderDetail) {
+74             return res.status(404).json({ message: 'Order detail not found' });
+75         }
+76
+77         orderDetail.discount_id = discount_id;
+78         await orderDetail.save();
+79
+80         discount.is_used = true;
+81         await discount.save();
+82
+83         res.status(200).json({ message: 'Discount applied to order detail
+84             successfully' });
+85     } catch (error) {
+86         console.error('Error applying discount to order detail:', error);
+87         res.status(500).json({ message: 'Failed to apply discount to order
+88             detail', error: error.message });
+89     }
+90 };
+
+	Наведемо програмний код методу автоматичної генерації робочих змін для робітника:
+
+1  exports.generateWorkerSchedule = async (req, res) => {
+2      const { workerId } = req.params;
+3
+4      try {
+5          const lastShift = await Shift.findOne({
+6              where: { worker_id: workerId },
+7              order: [['id', 'DESC']]
+8          });
+9
+10         if (!lastShift) {
+11             return res.status(400).json({ message: 'No shifts found for
+12                 this worker' });
+13         }
+14
+15         const schedule = lastShift.schedule;
+16
+17         const worker = await Worker.findByPk(workerId);
+18         const storeId = worker.store_id;
+19         const store = await Store.findByPk(storeId);
+20
+21         const { time_open, time_close } = store;
+22
+23         let currentDate;
+24
+25         const shifts = [];
+26         if (lastShift.start_time) {
+27             currentDate = addDays(lastShift.start_time, schedule + 1)
+28         }
+29         else {
+30             currentDate = addDays(new Date, 1);
+31         }
+32
+33         for (let i = 0; i < 2; i++) {
+34             for (let j = 0; j < schedule; j++) {
+35                 shifts.push({
+36                     worker_id: workerId,
+37                     start_time: new Date(currentDate.getFullYear(),
+38                         currentDate.getMonth(), currentDate.getDate(),
+39                         time_open.getHours(), time_open.getMinutes()),
+40                     end_time: new Date(currentDate.getFullYear(),
+41                         currentDate.getMonth(), currentDate.getDate(),
+42                         time_close.getHours(), time_close.getMinutes()),
+43                     schedule: schedule
+44                 });
+45                 currentDate = addDays(currentDate, 1);
+46             }
+47                 currentDate = addDays(currentDate, schedule);
+48         }
+49
+50         console.log(shifts);
+51
+52         await Shift.bulkCreate(shifts);
+53
+54         res.status(200).json({ message: 'Worker schedule generated
+55             successfully' });
+56     } catch (error) {
+57         console.error('Error generating worker schedule:', error);
+58         res.status(500).json({ message: 'Error generating worker schedule',
+59             error: error.message });
+60     }
+61 };
+
+	Наведемо програмний код методу аналізу відвідування магазинів:
+
+1  exports.analyzeAttendance = async (req, res) => {
+2      const { storeId } = req.params;
+3
+4      try {
+5          const endDate = new Date();
+6          const startDate = new Date();
+7          startDate.setDate(startDate.getDate() - 6);
+8
+9          const firstPeriodEndDate = new Date();
+10         const firstPeriodStartDate = new Date();
+11         firstPeriodStartDate.setDate(firstPeriodStartDate.getDate() - 6);
+12         firstPeriodEndDate.setDate(firstPeriodEndDate.getDate() - 4);
+13
+14         const secondPeriodEndDate = new Date();
+15         const secondPeriodStartDate = new Date();
+16         secondPeriodStartDate.setDate(secondPeriodStartDate.getDate() - 3);
+17         secondPeriodEndDate.setDate(secondPeriodEndDate.getDate() - 1);
+18
+19         const firstPeriodVisits = await Attendance.count({
+20             where: {
+21                 store_id: storeId,
+22                 entry_time: {
+23                     [Op.between]: [startDate, firstPeriodEndDate]
+24                 }
+25             }
+26         });
+27
+28         const secondPeriodVisits = await Attendance.count({
+29             where: {
+30                 store_id: storeId,
+31                 entry_time: {
+32                     [Op.between]: [secondPeriodStartDate, endDate]
+33                 }
+34             }
+35         });
+36
+37         let trend;
+38         if (firstPeriodVisits > 0) {
+39             const percentageChange = ((secondPeriodVisits -
+40                 firstPeriodVisits) / firstPeriodVisits) * 100;
+41             if (percentageChange > 0) {
+42                 trend = 'Збільшилось';
+43             } else if (percentageChange < 0) {
+44                 trend = 'Зменшилось';
+45             } else {
+46                 trend = 'Не змінилося';
+47             }
+48         } else {
+49             trend = 'Немає даних для аналізу';
+50         }
+51
+52         let advice;
+53         if (trend === 'Збільшилось') {
+54             advice = 'Навантаження на магазин за останній час
+55                 збільшилося. Рекомендовано мати 4 або 5 осіб персоналу на
+56                 робочому місці в завантажені дні.';
+57         } else if (trend === 'Зменшилось') {
+58             advice = 'Навантаження на магазин за останній час
+59                 зменшилося. Рекомендована мінімальна кількість
+60                 консультантів в магазині - 3.';
+61         } else {
+62             advice = 'Поки що немає потреби в змінах, але варто
+63                 продовжувати моніторити ситуацію.';
+64         }
+65
+66         res.status(200).json({
+67             firstPeriodVisits,
+68             secondPeriodVisits,
+69             trend,
+70             advice
+71         });
+72     } catch (error) {
+73         console.error('Помилка аналізу відвідуваності:', error);
+74         res.status(500).json({ message: 'Помилка аналізу
+75             відвідуваності', error: error.message });
+76     }
+77 };
+
+
+ДОДАТОК Г
+Програмний код клієнтської частини
+
+	Наведемо програмний код сторінки CartPage:
+
+1  import React, { useState, useEffect } from 'react';
+2  import axios from 'axios';
+3  import CartItem from '../components/CartItem';
+4  import '../styles/CartPage.css';
+5
+6  const CartPage = () => {
+7      const [cartItems, setCartItems] = useState([]);
+8      const [phoneNumber, setPhoneNumber] = useState('');
+9      const [storeAddress, setStoreAddress] = useState('');
+10     const [totalPrice, setTotalPrice] = useState(0);
+11     const [address, setAddress] = useState('');
+12     const [orderType, setOrderType] = useState('Shipping');
+13     const [discounts, setDiscounts] = useState([]);
+14     const [applyDiscount, setApplyDiscount] = useState(false);
+15
+16     const apiUrl = process.env.REACT_APP_API_URL;
+17
+18     useEffect(() => {
+19         const cartFromLocalStorage = localStorage.getItem('cart');
+20         if (cartFromLocalStorage) {
+21             setCartItems(JSON.parse(cartFromLocalStorage));
+22         }
+23     }, []);
+24
+25     useEffect(() => {
+26         const fetchUserProfile = async () => {
+27             try {
+28                 const response = await axios.get(`${apiUrl}/profile`, {
+29                     headers: {
+30                         Authorization: `Bearer ${localStorage.getItem('token')}`,
+31                     },
+32                 });
+33                 setPhoneNumber(response.data.phone_number);
+34             } catch (error) {
+35                 console.error('Error fetching user profile:', error);
+36             }
+37         };
+38         fetchUserProfile();
+39     }, []);
+40
+41     useEffect(() => {
+42         const fetchStoreAndMall = async () => {
+43             if (cartItems.length > 0) {
+44                 const storeId = cartItems[0].store_id;
+45                 try {
+46                     const storeResponse = await axios.get(`${apiUrl}/store/${storeId}`);
+47                     const mallId = storeResponse.data.mall_id;
+48                     const mallResponse = await axios.get(`${apiUrl}/mall/${mallId}`);
+49                     setStoreAddress(`${mallResponse.data.address}, ${storeResponse.data.name},
+50                     floor ${storeResponse.data.floor}`);
+51                 } catch (error) {
+52                     console.error('Error fetching store or mall:', error);
+53                 }
+54             }
+55         };
+56         fetchStoreAndMall();
+57     }, [cartItems]);
+58
+59     useEffect(() => {
+60         const calculateTotalPrice = () => {
+61             const total = cartItems.reduce((acc, item) => acc + item.price * item.num, 0);
+62             setTotalPrice(total);
+63         };
+64         calculateTotalPrice();
+65     }, [cartItems]);
+66
+67     useEffect(() => {
+68         const fetchDiscounts = async () => {
+69             try {
+70                 const userId = localStorage.getItem('id');
+71                 const response = await axios.get(`${apiUrl}/discount/${userId}`);
+72                 setDiscounts(response.data);
+73
+74             } catch (error) {
+75                 console.error('Error fetching discounts:', error);
+76             }
+77         };
+78         fetchDiscounts();
+79     }, [discounts]);
+80
+81     const removeFromCart = (id) => {
+82         const updatedCartItems = cartItems.filter(item => item.id !== id);
+83         setCartItems(updatedCartItems);
+84         localStorage.setItem('cart', JSON.stringify(updatedCartItems));
+85     };
+86
+87     const updateQuantity = (id, newQuantity) => {
+88         const updatedCartItems = cartItems.map(item => {
+89             if (item.id === id) {
+90                 return { ...item, num: newQuantity };
+91             }
+92             return item;
+93         });
+94         setCartItems(updatedCartItems);
+95         localStorage.setItem('cart', JSON.stringify(updatedCartItems));
+96     };
+97
+98     const handleOrderTypeChange = (event) => {
+99         const orderType = event.target.value;
+100        setOrderType(orderType);
+101        if (orderType === 'At store') {
+102            setAddress(storeAddress);
+103        } else {
+104            setAddress('');
+105        }
+106    };
+107
+108    const handleOrder = async () => {
+109        try {
+110            const user_id = localStorage.getItem('id');
+111            const newOrder = await axios.post(`${apiUrl}/order`, {
+112                user_id,
+113                address,
+114                order_type: orderType,
+115            });
+116
+117            const order_id = newOrder.data.id;
+118
+119            const orderDetailsPromises = cartItems.map(async item => {
+120                return axios.post(`${apiUrl}/orderDetails`, {
+121                    order_id,
+122                    product_id: item.id,
+123                    quantity: item.num,
+124                });
+125            });
+126
+127            const orderDetailResponses = await Promise.all(orderDetailsPromises);
+128            const mostItemsOrderDetail = orderDetailResponses[0].data.id;
+129
+130            if (applyDiscount) {
+131                await axios.post(`${apiUrl}/applyDiscount/${discounts[0].id}/${mostItemsOrderDetail}`);
+132                alert("Discount applied!");
+133            }
+134
+135            alert('Order created successfully!');
+136            localStorage.removeItem('cart');
+137            setCartItems([]);
+138
+139            const generateDiscountResponse = await axios.post(`${apiUrl}/discount/${user_id}`);
+140
+141            console.log(generateDiscountResponse.status);
+142
+143            if (generateDiscountResponse.status === 201){
+144                alert("New discount for you generated!");
+145            }
+146
+147        } catch (error) {
+148            console.error('Error creating order:', error);
+149            alert('Failed to create order');
+150        }
+151    };
+152
+153    return (
+154        <div className="cart-page">
+155            <div className="cart-items">
+156                <h2>Your cart</h2>
+157                {cartItems.length === 0 ? (
+158                    <div className="empty-cart-message">
+159                        <h3>Cart is empty</h3>
+160                    </div>
+161                ) : (
+162                    cartItems.map(item => (
+163                        <CartItem
+164                            key={item.id}
+165                            id={item.id}
+166                            name={item.name}
+167                            price={item.price}
+168                            photo={item.photo}
+169                            num={item.num}
+170                            onRemove={removeFromCart}
+171                            onUpdateQuantity={updateQuantity}
+172                        />
+173                    ))
+174                )}
+175            </div>
+176            <div className="order-details">
+177                <h2>Order Details</h2>
+178                <div className="order-fields">
+179                    <label htmlFor="address">Address:</label>
+180                    <input type="text" id="address" name="address" value={address}
+181                    onChange={e => setAddress(e.target.value)} />
+182                    <label htmlFor="order-type">Order type:</label>
+183                    <select id="order-type" name="order-type" value={orderType}
+184                    onChange={handleOrderTypeChange}>
+185                        <option value="Shipping">Shipping</option>
+186                        <option value="At store">At Store</option>
+187                    </select>
+188                    <label htmlFor="phone-number">Phone Number:</label>
+189                    <input type="tel" id="phone-number" name="phone-number" value={phoneNumber} readOnly />
+190                </div>
+191                <div className="order-total">
+192                    <h3>Total Price: ${totalPrice.toFixed(2)}</h3>
+193                </div>
+194                <button className="order-button" onClick={handleOrder}>Order</button>
+195            </div>
+196            <div className="order-discounts">
+197                <h2>Discounts</h2>
+198                {discounts.length === 0 ? (
+199                    <p>No discounts available</p>
+200                ) : (
+201                    <ul>
+202                        {discounts.map(discount => (
+203                            <div key={discount.id} className="discount">
+204                                <p>Percent: {discount.percent}%</p>
+205                                <h4>Discount {discount.is_used ? 'used' : 'not used'}</h4>
+206                            </div>
+207                        ))}
+208                        <button
+209                            className={`discount-button ${applyDiscount ? 'active' : ''}`}
+210                            onClick={() => setApplyDiscount(!applyDiscount)}
+211                        >
+212                            Apply
+213                        </button>
+214                    </ul>
+215                )}
+216            </div>
+217        </div>
+218    );
+219 };
+220
+221 export default CartPage;
+
+
+	Наведемо програмний код сторінки ShiftsPage:
+
+1  import React, { useState, useEffect } from 'react';
+2  import axios from 'axios';
+3  import { useParams } from 'react-router-dom';
+4  import '../styles/ShiftsPage.css';
+5
+6  const ShiftsPage = () => {
+7      const { id } = useParams();
+8      const [shifts, setShifts] = useState([]);
+9      const [showFutureShifts, setShowFutureShifts] = useState(false);
+10     const [isLoading, setIsLoading] = useState(true);
+11
+12     const apiUrl = process.env.REACT_APP_API_URL;
+13
+14     useEffect(() => {
+15         const fetchShifts = async () => {
+16             try {
+17                 const response = await axios.get(`${apiUrl}/${showFutureShifts ? 'futureShift' : 'shift'}/${id}`);
+18                 setShifts(response.data);
+19                 setIsLoading(false);
+20             } catch (error) {
+21                 console.error('Error fetching shifts:', error);
+22                 setIsLoading(false);
+23             }
+24         };
+25         fetchShifts();
+26     }, [showFutureShifts, id]);
+27
+28     const handleGenerateShifts = async () => {
+29         try {
+30             await axios.post(`${apiUrl}/generateShifts/${id}`);
+31             alert('Shifts generated successfully');
+32             const response = await axios.get(`${apiUrl}/${showFutureShifts ? 'futureShift' : 'shift'}/${id}`);
+33             setShifts(response.data);
+34         } catch (error) {
+35             console.error('Error generating shifts:', error);
+36             alert('Failed to generate shifts');
+37         }
+38     };
+39
+40     if (isLoading) {
+41         return <div>Loading...</div>;
+42     }
+43
+44     return (
+45         <div className="shifts-page">
+46             <h1>Shifts for Worker #{id}</h1>
+47             <div className="actions">
+48                 <button className="generate-shifts-button" onClick={handleGenerateShifts}>
+49                     Generate shifts for worker
+50                 </button>
+51                 <div className="toggle">
+52                     <label>Show future shifts</label>
+53                     <input
+54                         type="checkbox"
+55                         checked={showFutureShifts}
+56                         onChange={() => setShowFutureShifts(!showFutureShifts)}
+57                     />
+58                 </div>
+59             </div>
+60             <div className="shifts-list">
+61                 {shifts.map(shift => (
+62                     <div key={shift.id} className="shift">
+63                         <h2>{new Date(shift.start_time).toLocaleDateString()}</h2>
+64                         <p><strong>Start Time:</strong> {new Date(shift.start_time).toISOString().slice(11, 16)}</p>
+65                         <p><strong>End Time:</strong> {new Date(shift.end_time).toISOString().slice(11, 16)}</p>
+66                     </div>
+67                 ))}
+68             </div>
+69         </div>
+70     );
+71 };
+72
+73 export default ShiftsPage;
+
+	Наведемо програмний код сторінки AttendancePage:
+
+1  import React, { useState, useEffect } from 'react';
+2  import axios from 'axios';
+3  import { format } from 'date-fns';
+4  import '../styles/AttendancePage.css';
+5  import {
+6      Chart as ChartJS,
+7      BarElement,
+8      CategoryScale,
+9      LinearScale,
+10     Tooltip,
+11     Legend
+12 } from "chart.js";
+13
+14 import { Bar } from 'react-chartjs-2';
+15
+16 ChartJS.register(
+17     BarElement,
+18     CategoryScale,
+19     LinearScale,
+20     Tooltip,
+21     Legend
+22 );
+23
+24 const AttendancePage = () => {
+25     const [storeId, setStoreId] = useState('');
+26     const [dateFrom, setDateFrom] = useState('');
+27     const [dateTo, setDateTo] = useState('');
+28     const [attendanceData, setAttendanceData] = useState([]);
+29     const [visits, setVisits] = useState([]);
+30     const [dates, setDates] = useState([]);
+31     const [storeName, setStoreName] = useState('');
+32     const [isLoading, setIsLoading] = useState(false);
+33     const [stores, setStores] = useState([]);
+34     const [advice, setAdvice] = useState('');
+35     const [trend, setTrend] = useState('');
+36
+37     const apiUrl = process.env.REACT_APP_API_URL;
+38
+39     const data = {
+40         labels: dates,
+41         datasets: [
+42             {
+43                 label: storeName,
+44                 data: visits,
+45                 backgroundColor: '#c0c2ff',
+46                 borderBlockColor: 'black',
+47                 borderWidth: 1,
+48             }
+49         ]
+50     };
+51
+52     const options = {};
+53
+54     useEffect(() => {
+55         fetchStores();
+56     }, []);
+57
+58     const fetchStores = async () => {
+59         try {
+60             const adminId = localStorage.getItem('id');
+61             const mallResponse = await axios.get(`${apiUrl}/admin/${adminId}`);
+62             const mallId = mallResponse.data.mall_id;
+63
+64             const storesResponse = await axios.get(`${apiUrl}/store/mall/${mallId}`);
+65             setStores(storesResponse.data);
+66         } catch (error) {
+67             console.error('Error fetching stores:', error);
+68         }
+69     };
+70
+71     const fetchAttendanceData = async () => {
+72         setIsLoading(true);
+73         try {
+74             const response = await axios.get(`${apiUrl}/attendanceDailyCount/store/${storeId}/range/${dateFrom}/${dateTo}`);
+75             const response1 = await axios.get(`${apiUrl}/store/${storeId}`);
+76
+77             setAttendanceData(response.data);
+78             setVisits(attendanceData.map(item => item.visits));
+79             setDates(attendanceData.map(item => format(new Date(item.date), 'dd-MM-yyyy')));
+80             setStoreName(response1.data.name);
+81
+82             setIsLoading(false);
+83         } catch (error) {
+84             console.error('Error fetching attendance data:', error);
+85             setIsLoading(false);
+86         }
+87     };
+88
+89     const fetchAdvice = async () => {
+90         try {
+91             const response = await axios.get(`${apiUrl}/attendanceAnalyze/store/${storeId}`);
+92             setTrend(response.data.trend);
+93             setAdvice(response.data.advice);
+94         } catch (error) {
+95             console.error('Error fetching advice:', error);
+96         }
+97     };
+98
+99     const handleSubmit = (e) => {
+100        fetchAttendanceData();
+101        fetchAdvice();
+102        e.preventDefault();
+103    };
+104
+105    return (
+106        <div className="attendance-page">
+107            <h1>Attendance</h1>
+108            {advice && trend && (
+109                <div className="advice-container">
+110                    <h2>Trend: {trend}</h2>
+111                    <p>{advice}</p>
+112                </div>
+113            )}
+114            <form onSubmit={handleSubmit}>
+115                <div className="form-group">
+116                    <label>Store:</label>
+117                    <select value={storeId} onChange={(e) => setStoreId(e.target.value)} required>
+118                        <option value="">Select a store</option>
+119                        {stores.map(store => (
+120                            <option key={store.id} value={store.id}>{store.name}</option>
+121                        ))}
+122                    </select>
+123                </div>
+124                <div className="form-group">
+125                    <label>Date From:</label>
+126                    <input type="date" value={dateFrom} onChange={(e) => setDateFrom(e.target.value)} required />
+127                </div>
+128                <div className="form-group">
+129                    <label>Date To:</label>
+130                    <input type="date" value={dateTo} onChange={(e) => setDateTo(e.target.value)} required />
+131                </div>
+132                <button type="submit">Get chart</button>
+133            </form>
+134            <div className="chart-container">
+135                {attendanceData.length > 0 ? (
+136                    <div>
+137                        <Bar
+138                            data={data}
+139                            options={options}
+140                        ></Bar>
+141                    </div>
+142                ) : <div>No data to display</div>}
+143            </div>
+144
+145        </div>
+146    );
+147 };
+148
+149 export default AttendancePage;
